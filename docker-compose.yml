@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: backend/
+    ports:
+      - "1337:1337"
+    restart: "on-failure:3"
+  frontend:
+    build: frontend/
+    ports:
+      - "3000:3000"
+    restart: "on-failure:3"
