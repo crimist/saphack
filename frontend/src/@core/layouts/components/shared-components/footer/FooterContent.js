@@ -8,7 +8,7 @@ const FooterContent = () => {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
       <Typography style={{color: '#B2BEB5'}} sx={{ mr: 2 }}>
-        Made for SAP Hackathon using Materio React and MUI elements
+        Made for SAP Hackathon Materio and Material UI (Demo)
       </Typography>
       
     </Box>

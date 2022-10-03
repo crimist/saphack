@@ -44,7 +44,7 @@ const TabAccount = () => {
   const [name, setName] = useState("");
   const [userID, setUserID] = useState("");
   const [mask, setMask] = useState("false");
-  const [addy, setAddy] = useState("true");
+  const [addy, setAddy] = useState("");
 
 
   useState(() => {

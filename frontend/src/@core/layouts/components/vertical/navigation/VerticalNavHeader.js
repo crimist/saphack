@@ -47,7 +47,7 @@ const VerticalNavHeader = props => {
       {userVerticalNavMenuBranding ? (
         userVerticalNavMenuBranding(props)
       ) : (
-        <Link href='/driver-dash' passHref>
+        <Link href='/' passHref>
           <StyledLink>
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png" width="95" height="50" />
             <HeaderTitle variant='h6' sx={{ ml: 3 }}>
