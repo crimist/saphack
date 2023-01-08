@@ -1,5 +1,5 @@
 # SAP Hack backend
 
-**Message from Crimist**: Due to hackathon time constraints and *certain frontend issues* this backend is a total mess. I'd like to have written a CRUD API and auth but oh well.
+Hi! You can run this backend with `go run` or build the docker container.
 
-Recommend you instead focus on the pretty frontend :)
+This backend is very hacky due to time constraints and having to accommodate the frontend. Read [../README.md](../README.md) for more information on this backend and what we would do given professional deadlines.

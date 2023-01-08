@@ -57,7 +57,21 @@ Lastly, our UI was mobile responsive, and most importantly, had a dark mode.
 
 ### Technologies
 
-Our front-end was built using React and Material UI, while our original back-end was built using Go, using an ORM library for SQLite queries, dynamically mapping routes with a greedy shortest-path algorithm, and allowing for the city mapping to be handled by Google maps. 
+Our front-end was built using React and Material UI, while our original back-end was built using Go with Gin and Gorm.
+
+#### **Backend**
+
+The backend dynamically mapping routes with a greedy shortest-path algorithm based on the users and office address. Users are part of groups (teams) and can view each others statuses regarding ride sharing.
+
+To achieve this in a short time frame I used Gorm, a flexible ORM, and Gin, a web framework. Due to the time constraints of a hackathon we couldn't implement all the features but given time we'd have like to included:
+
+* SSO authentication.
+* Team management (potentially automated).
+* Address autofill and coordinate fetching with the google maps API.
+* Improved and functioning statistics based on vehicle information (charts, montly recap, etc.).
+* Configurable ride calculation algorithm (prefer time vs. gas usage etc.).
+* Improved mapping software integration (support Waze and other mapping software).
+
 ## Demo
 
 * Start server and frontend
