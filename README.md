@@ -6,7 +6,7 @@ Built for SAP Invitational Hackathon 2022: 1st Place
 
 <!-- ## <u>Table of Contents</u> -->
 ## Contributors
-* [Crimist](https://github.com/crimist) | Backend
+* [Liam (crimist)](https://github.com/crimist) | Backend
 * [Leonardo Ciappi (Lciappi)](https://github.com/Lciappi) | Frontend
 * [Eric Lee (ikamino)](https://github.com/ikamino) | Both
 
