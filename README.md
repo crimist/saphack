@@ -2,15 +2,30 @@
 
 SAPShare is an eco-friendly ride-sharing app for the office with dynamic route mapping and team coordination features. 
 
-Built for SAP Invitational Hackathon 2022: 1st Place
+Built for SAP Invitational Hackathon 2022: 1st Place.
 
-<!-- ## <u>Table of Contents</u> -->
 ## Contributors
 * [Liam (crimist)](https://github.com/crimist) | Backend
 * [Leonardo Ciappi (Lciappi)](https://github.com/Lciappi) | Frontend
-* [Eric Lee (ikamino)](https://github.com/ikamino) | Both
+* [Eric Lee (ikamino)](https://github.com/ikamino) | Frontend + Backend
 
-[Jump to Demo](#demo)
+---
+
+## Table of Contents
+
+- [SAP hackathon: SAPshare](#sap-hackathon-sapshare)
+  - [Contributors](#contributors)
+  - [Table of Contents](#table-of-contents)
+  - [The Problem](#the-problem)
+    - [Planning](#planning)
+    - [Product](#product)
+    - [Core](#core)
+    - [Nice to Haves](#nice-to-haves)
+    - [Technologies](#technologies)
+      - [**Backend**](#backend)
+  - [Demo](#demo)
+    - [With `docker-compose`](#with-docker-compose)
+    - [Manual](#manual)
 
 ## The Problem
 
@@ -74,46 +89,24 @@ To achieve this in a short time frame I used Gorm, a flexible ORM, and Gin, a we
 
 ## Demo
 
-* Start server and frontend
-* Run `/backend/demo.py`
-* See routing change!
+For a demo similar to what the judges saw start the frontend & backend and log into the service. Then run `/backend/demo.py`, refresh, and notice that the routing has changed based on the new addresses of the users.
 
-## Execution:
-
-## "Production"
-
-With docker-compose:
+### With `docker-compose`
 
 ```sh
-docker-compose up # -d for daemon
+docker-compose up
 ```
 
-## Dev
+### Manual
 
-### Backend
-
-With go:
+You'll need `nodejs` and `go`.
 
 ```sh
-# in backend/
+# backend
 go run .
-```
 
-### Frontend
-
-Install yarn:
-
-```sh
-# install node
-yay -S nodejs # on Arch 
-nvm install node # nvm manager
-sudo apt-get install -y nodejs #linux
-npm install --global yarn
-```
-
-Running with yarn:
-
-```sh
-yarn install # installs packages
-yarn dev # start dev server
+# frontend
+npm install --global yarn   # install yarn
+yarn install                # pull deps
+yarn dev                    # start dev server
 ```
